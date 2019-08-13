@@ -1,10 +1,4 @@
-# 一个基于 React 技术栈的前端脚手架项目，适用于企业级中后台应用
-
-> 使用 @lugia/lugia-web, @lugia/lugiax, @lugia/mega-scripts ...
-
-## 在 Lugia Mega Desktop 中使用
-
-内置默认的脚手架项目，在 Mega 中直接使用即可
+# 一个基于 Lugia-mega 创建项目案例, lugia 的简单入门教程示例。
 
 ### 这些文件由 Mega 动态生成，不允许手动修改
 
@@ -13,9 +7,27 @@
 - config/routing.config.js
 - mock/index.js
 
-## 单独使用
+## model使用示例
+
+文件路径: /lugia-simple-demo/src/models/page1.js
+
+## mock使用示例
+
+文件路径: /lugia-simple-demo/mock/search.js
+
+## 项目查看方式 1
+
+- 下载 lugia-simple-demo 项目到本地
+- 打开 lugia 客户端
+- 选择 新项目 -> 导入项目 -> 选择本地项目路径并导入
+- 导入成功后打开项目
+- 点击预览按钮 
+
+## 项目查看方式 2
 
 ```bash
+# 下载 lugia-simple-demo 项目到本地
+
 # 安装依赖
 yarn
 
